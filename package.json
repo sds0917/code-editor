@@ -1,0 +1,17 @@
+{
+    "name": "editor",
+    "version": "1.0.0",
+    "description": "editor",
+    "main": "index.js",
+    "scripts": {
+        "server": "node_modules/.bin/http-server -c-1 ./ -p 8888",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "http-server": "^0.11.1",
+        "jquery": "^1.12.4",
+        "monaco-editor": "^0.14.3"
+    }
+}
